@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lavender;
+}
+
+header {
+    padding: 20px;
+    background-color: teal;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+header nav, li {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    list-style-type: none;
+}
