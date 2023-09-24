@@ -2,26 +2,58 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Sans-serif;
 }
 
-body {
-    background-color: lavender;
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.57),rgba(0,0,0,0.57)), url(./images/coffee\ shop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color:white;
+    font-size: 200%;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header {
-    padding: 20px;
-    background-color: teal;
-    color: white;
+.logo {
+    width: 120px;
+    cursor: pointer;
 }
 
-header h1 {
+.navbar ul li {
+    list-style: none;
     display: inline-block;
-    font-size: 50px;
+    margin: 0 20px;
+    position: relative;
 }
 
-header nav, li {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    list-style-type: none;
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content:'';
+    height: 3px;
+    width: 0;
+    background: rgb(84, 84, 228);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
 }
