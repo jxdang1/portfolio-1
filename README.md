@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-View the deployed project through [GitPages] or view the code on the repository.
+View the deployed project through [GitPages](https://jxdang1.github.io/portfolio-1/) or view the code on the repository.
 
 ## License
 
