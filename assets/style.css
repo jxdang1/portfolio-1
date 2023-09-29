@@ -97,7 +97,7 @@ section {
 
 }
 
-.github {
+.github, .contact {
     width: 100%;
     min-height: 90vh;
     display: grid;
@@ -107,8 +107,9 @@ section {
 }
 
 .github-img {
-    width: 10%;
-    height: 10%;
+    max-width: 50%;
+    max-height: 75%;
+    height: auto;
 }
 
 .github-text h1 {
@@ -121,14 +122,12 @@ section {
     line-height: 1.7;
 }
 
-footer {
-    padding: 10px 0;
+.contact-text ul {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500px;
 }
-
-footer #contact {
-
-}
-
 
 
 
