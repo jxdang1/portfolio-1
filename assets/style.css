@@ -1,18 +1,168 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: Sans-serif;
+/* added some different var of colors */
+:root {
+    --main-color:#ff702a;
+    --text-color: #fff;
+    --bg-color: #1e1c2a;
+    --big-font: 5rem;
+    --h2-font: 2.25rem;
+    --p-font: .9rem;
 }
 
-.banner {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.57),rgba(0,0,0,0.57)), url(./images/coffee\ shop.jpg);
-    background-size: cover;
-    background-position: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
 }
-h1{
+
+*::selection {
+    background-color: var(--main-color);
+    color:#fff;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 30px 170px;
+    background: var(--bg-color);
+}
+
+.logo {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500px;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    transition: .3s;
+}
+
+#menu-icon {
+    font-size:2rem;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    padding: 70px 17%;
+}
+
+.home {
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.self-image img {
+    max-width: 50%;
+    max-height: 75%;
+    height: auto;
+}
+
+.home-text h1 {
+ font-size: 50px;
+ color: var(--main-color);
+
+}
+
+.home-text p {
+    font-size: 20px;
+    font-family: Sans-serif;
+    margin: 1rem 0 2rem;
+
+}
+
+.github {
+    display: grid;
+    grid-template-columns: repeat (2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.github-text h1 {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.github-text p {
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{ 
     color:white;
     font-size: 200%;
 }
@@ -57,3 +207,4 @@ h1{
 .navbar ul li:hover::after {
     width: 100%;
 }
+*/
