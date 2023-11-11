@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@200&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     <title>Jennifer's Portfolio 2</title>
 </head>
 
@@ -11,29 +14,38 @@
     <header>
         <h1 class="name">Jennifer Dang<h1>
 
-        <ul class="navbar">
-            <li><a href="home">About Me</a></li>
-            <li><a href="github">Projects</a></li>
-            <li><a href="contact">Contact Me</a></li>
-        </ul>
+        <nav class="navbar">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#github">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </nav>
     </header>
 
     <!-- About Me -->
-    <section class ="home" id="home">
-        <div class="home-text">
-            <h1>About Me</h1>
-            <p>Hi, I'm Jennifer Dang. I'm currently a Component Analyst. A few things about what I do is that I ensure different electronic components' quality and reliability through different testings such as chemical decapsulation, x-ray, scanning electron microscope, etc. I'm familiar with different military standards such as MIL-STD-883, MIL-STD-750, and MIL-STD-1580. I wanted to further my career with coding to get more familiar with both software and hardware development. </p>
+    <section class ="about-me" id="about-me">
+        <div class="section-detail">
+            <h1 class="section-title primary-border">About Me</h1>
+            <p>
+                Hello, my name is Jennifer Dang, and I'm a passionate problem solver with a strive for success in web development. I thrive on challenges and have a natural curiousity that drives my eagerness to learn and grow in this ever-evolving field.<br><br>
+                
+                In my spare time, you'll often find me endulging in a good book, expressing my creativity through dancing, and exploring new worlds in video games.<br><br>
+
+                Thanks for visiting my page! <br><br>
+            </p>
         </div>  
 
+
         <div class="self-image">
-            <img src="./assets/images/IMG_4180.jpg" alt="picture of me">
+                <img src="./assets/images/portfolio-image-resized.jpeg" alt="Jennifer Dang">
+            </div>
         </div>
     </section>
 
 <!-- Projects -->
     <section class="github" id="github">
-        <div class = "github-text">
-            <h1>Projects</h1>
+        <div class="section-detail">
+            <h1 class="section-title primary-border">Projects</h1>
             <p>Here are some projects that I've worked on. In this bootcamp, we have learned html, and css so far.</p>
         </div>
         <div class="github-img">
@@ -41,11 +53,14 @@
             <img src="./assets/images/prework-study-guide1.jpg" alt="picture of prework study guide">
         </div>
     </section>
-</body>
-    <!-- Resume and Contact Me -->
+
+<!-- Resume -->
+
+
+    <!-- Contact Me -->
     <section class="contact" id="contact">
-        <div class = "contact-text">
-            <h1>Contact Me</h1>
+        <div class="section-detail">
+            <h1 class="section-title primary-border">Contact Me</h1>
                 <ul>
                     <li>Email me at <a href="mailto:dangjennifer21@gmail.com">dangjennifer21@gmail.com</a></li>
                     <li>Check out my Github at <a href="https://github.com/jxdang1">github.com/jxdang1</a></li>
@@ -54,5 +69,6 @@
         </div>
         </div>
     </section>
+</body>
 </footer>
 </html>
